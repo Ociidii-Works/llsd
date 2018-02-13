@@ -13,8 +13,5 @@ Gem::Specification.new do |s|
   s.email     = 'beck@lindenlab.com'
   s.authors   = ['Beck Linden', 'Joshua Linden']
   s.licenses  = ['Nonstandard']
-
-  s.files     = %w(LICENSE Rakefile)
-  s.files    += Dir['lib/**/*']
-  s.files    += Dir['test/**/*']
+  s.files     = Dir.glob("{lib}/**/*") + %w(LICENSE Rakefile)
 end
