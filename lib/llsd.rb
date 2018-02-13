@@ -67,7 +67,7 @@ class LLSD
       obj.each { |o| array_element.add_element(serialize_ruby_obj(o)) }
       array_element
 
-    when Fixnum, Integer
+    when Integer
       integer_element = REXML::Element.new(INTEGER_ELEMENT)
       integer_element.text = obj.to_s
       integer_element
