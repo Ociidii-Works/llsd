@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.homepage  = 'https://github.com/becklinden/llsd'
   s.email     = 'beck@lindenlab.com'
   s.authors   = ['Beck Linden', 'Joshua Linden']
+  s.licenses  = ['Nonstandard']
 
   s.files     = %w(LICENSE Rakefile)
   s.files    += Dir['lib/**/*']
